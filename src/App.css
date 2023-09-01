@@ -1,0 +1,92 @@
+.cont{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    /* margin: 1px; */
+    /* justify-content: space-between; */
+}
+.nav li{
+    margin-right: 10px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile p{
+    margin-right: 5px;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.subCon{
+    border: 1px solid red;
+}
+.subCon ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.subCon li{
+    margin-right: 30px;
+}
+.home{
+    display: flex;
+}
+.grid-con{
+    display: flex;
+    
+    /* grid-template-columns: 1fr, 1fr; */
+    /* grid-template-columns: 50%;
+    height: 100%; */
+}
+
+.grid-item{
+    border: 1px solid red;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* text-align: center; */
+    width: 709px;
+    height: 1000px;
+}
+
+.grid-item h1{
+    font-size: 50px;
+}
+.record{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subrecord{
+    display: flex;
+    align-items: center;
+}
+.subrecord p{
+    font-size: 50px;
+}
+.home button{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background-color: #ccc;
+}
+.grid2{
+    background-color: #ccc;
+    padding: 100px;
+}
+
+.secGrid{
+    padding: 100px;
+    border: 1 px solid red;
+    width: 100px;
+    height: 100px;
+}
